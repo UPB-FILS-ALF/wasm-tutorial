@@ -1,0 +1,11 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dtsvet.vscode-wasm"
+            ]
+        }
+    },
+    "postCreateCommand": "npm install -g https://github.com/alexandruradovici/was.git"
+}
